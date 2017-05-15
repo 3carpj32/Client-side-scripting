@@ -1,0 +1,16 @@
+#wrapper{
+    text-align: center;
+    border-color: aqua;
+    background-color: bisque;
+    font-family: "Arial";
+    font-size: 24px;
+}
+
+body{
+    background-color: red;
+}
+
+div.header-block{
+    background-color: coral;
+    min-height: 20px;
+}

@@ -1,0 +1,28 @@
+#wrapper{
+    text-align: center;
+    border-color: aqua;
+    background-color: bisque;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+body{
+    background-color: red;
+}
+
+div.header-block{
+    background-color: coral;
+    min-height: 20px;
+}
+
+#form{
+    text-align: left;
+    background-color: darkorange;
+    width: 650px;
+    margin: 0 auto;
+}
+
+#form input{
+    text-align: left;
+    width: 300px;
+}
