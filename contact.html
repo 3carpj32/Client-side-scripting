@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Contact</title>
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="icon" href="img/favricon.png">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <script type="text/javascript" src="js/contactsupport.js"></script>
+    </head>
+    
+    <body onload="main">
+        <div id="wrapper">
+            <div class="header-block">
+                <img style="float: left;" src="img/pizza%202.png" alt="pizza_image_2">
+                
+                <div style="float: center">
+                    
+                    <h1>Contact</h1>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="row">
+            <div class="twelve-bar">
+            <ul class="nav-bar">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html">Order</a></li>
+                
+            </ul>
+            </div>
+            </div>
+            
+            <div style="clear:both;">
+                
+            <p>If you want to get in contact with Solent Pizza's fill in form down below and we'll reply back soon.</p>
+                
+             <div id="form">
+                 <form name="contact_form" onsubmit="return_validation_form()">
+                     <p>First Name <br>
+                         <input type="text" name="first_name" id="first_name" placeholder="Enter First Name" />
+                         <img src="img/tick.png" id="first_name_valid" style="display:none" alt="green_tick" />
+                         <img src="img/cross.png" id="first_name_invalid" style="display:none" alt="red_cross" />
+                     </p>
+                     
+                     <p>Surname <br />
+                         <input type="text" name="last_name" id="last_name" placeholder="Enter Surname" />
+                         <img src="img/tick.png" id="last_name_valid" style="display:none" alt"green_tick" />
+                         <img src="img/cross.png" id="last_name_invalid" style="display:none" alt="red_cross" />
+                     </p>
+                    
+                     <p>Email<br/>
+                         <input type="text" name="email" id="email" placeholder="Enter Email" />
+                         <img src="img/tick.png" id="email_valid" style="display:none" alt="green_tick" />
+                         <img src="img/cross.png" id="email_invalid" style="display:none" alt="red_cross" />
+                     </p>
+                     
+                     <p>Telephone/Mobile Number<br />
+                         <input type="text" name="phone" placeholder="Enter Telephone/Mobile" />
+                     </p>
+                     
+                     <p>Message <br />
+                         <textarea name="message" id="message" placeholder="Enter Message" rows=="4"/></textarea>
+                 <img src="img/tick.png" id="message_sent" style="display:none" alt="green_tick" />
+                 </p>
+                <p> <button type="submit" value="Send">Send</button></p>
+                
+            </div>
+        </div>
+        
+        <div id="validationResult">
+        
+        <h2>Solent Pizza's Store Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.850430800755!2d-1.4023835842519911!3d50.90798357954109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487476b1943c33e9%3A0x7b3d2a7c433db059!2sSouthampton+Solent+University!5e0!3m2!1sen!2suk!4v1494431645367" width="600" height="450" frameborder="0" style="border:0" allowfullscreen"></iframe>
+        
+        </div>
+    </body>
+</html>
